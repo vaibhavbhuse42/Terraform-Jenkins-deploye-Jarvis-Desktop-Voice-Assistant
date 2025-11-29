@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         REMOTE_USER = "ubuntu"
-        REMOTE_HOST = "3.88.156.131"
+        REMOTE_HOST = "65.1.148.238"
         REMOTE_DIR  = "/home/ubuntu/jarvis"
         SSH_OPTS    = "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
         CRED_ID     = "ubuntu"
